@@ -84,13 +84,14 @@ print("Произведение = ", proizvedenie)
 Задача 5 
 Реализуйте алгоритм перемешивания списка
 
-'''
+
 list = {0,1,2,3,4,5,6,7,8,9}
 temp = 0
 i = 0
 print("Начало : ")
 for i in range(5):
-    temp = list[i]
+    temp = list[i] # в этой строке выдает оштибку :(
     list[i] = list[-i]
     list[-i] = temp
 print(list)
+'''
