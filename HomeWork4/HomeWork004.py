@@ -93,7 +93,7 @@ print(NePovtoryaytsya(a))
 - k=2 => 2*x² + 4*x + 5 = 0 или x² + 5 = 0 или 10*x² = 0
 - k=4 => 8*(x**4) + 9*(x**3) + 1*(x**2) + 5*x + 4 = 0 или 8*(x**4) + 5*x + 4 = 0 и т.д.
 '''
-
+'''
 import random
 k = int(input("Enter k: "))
 mnogochlen = []
@@ -113,3 +113,4 @@ file004 = 'HW004.txt'
 with open(file004, 'w') as fil:
     fil.writelines(str(res))
     
+'''

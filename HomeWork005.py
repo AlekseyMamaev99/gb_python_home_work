@@ -21,15 +21,10 @@ print(my_string)
 a) Добавьте игру против бота
 b) Подумайте как наделить бота ""интеллектом""
 '''
-import random
-
-konfety = 2021
-pervyi_hod = random.randint(1,3)
-
-def KonfetyGame(konfety, first_play):
+'''
+def KonfetyGame(sweets, first_play):
     user_1_count = 0
     user_2_count = 0
-    sweets = konfety
     while sweets > 0:
         if sweets < 28:
             max_hod = sweets + 1
@@ -68,7 +63,22 @@ def KonfetyGame(konfety, first_play):
             else:
                 print('Вы взяли слишком много конфет! ')
 
+
+import random
+konfety = 2021
+pervyi_hod = random.randint(1,3)
 KonfetyGame(50,1)
 
 
-        
+'''
+
+# Задача 3
+'''
+Создайте программу для игры в ""Крестики-нолики"".
+'''
+
+ryad_1 = [1, 1, 1]
+ryad_2 = [1, 1, 1]
+ryad_3 = [1, 1, 1]
+pole = [ryad_1, ryad_2, ryad_3 ]
+print(f' {pole[0]} \n {pole[1]} \n {pole[2]}')
